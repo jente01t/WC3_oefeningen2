@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&family=Suez+One&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    background-color: #e4efea;
+}
+
+h1, h2, h3 {
+    font-family: "Suez One", serfif;
+}
+
+p {
+    margin: 1em;
+}
+
+.intro {
+    text-align: center;
+    background: black url(../images/bttf-header.jpg) no-repeat top center;
+    background-size: cover;
+    color: white;
+    padding: 5rem 6rem;
+    margin-bottom: 2rem;
+}
+
+.movie-row {
+    display: flex;
+}
+
+.movie-title {
+    font-size: 1.2rem;
+    margin-top: 0;
+}
+
+.movie-image {
+    margin: 0 1em 1em;
+}
+
+.movie-image img {
+    width: 300px;
+    height: auto;
+    display: block;
+}
+
+.movie-text {
+    flex: 1;
+}
+
+.movie-text p {
+    text-indent: 0;
+}
+
+.movie-date {
+    text-align: end;
+    color: #a1a9a2;
+}
+
+.movie-date i {
+    color: #53aa74;
+}
+
+.movie-date + p {
+    text-indent: 2em;
+  }
+
+hr {
+  margin: 1em auto;
+}
+  
